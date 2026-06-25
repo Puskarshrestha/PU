@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Details Table</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            padding:20px;
+            background-image:url(calculator/day-19/w.jpg);
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        th,td{
+            border:1px solid #000;
+            padding:10px;
+            vertical-align:top;
+        }
+
+        th{
+            background:#f2f2f2;
+        }
+
+        .links a{
+            display:block;
+            margin:5px 0;
+            color:blue;
+            text-decoration:none;
+        }
+
+        .links a:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Related Docs</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Ram</td>
+        <td>Ram is a student.</td>
+        <td class="links">
+            <a href="https://www.google.com/search?q=mount+everest+video&client=opera&hs=y8Z&sca_esv=3646938bb84535ce&sxsrf=ANbL-n6EaRS1LVMnfCelRPWvs6aaH4WNEg%3A1781144668521&ei=XBwqatmiH-uWseMP-8-JiAs&biw=1462&bih=691&oq=Mount+Everest+vid&gs_lp=Egxnd3Mtd2l6LXNlcnAiEU1vdW50IEV2ZXJlc3QgdmlkKgIIADILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgsQABiABBiKBRiRAjILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARItiVQ9QJYqxlwAXgBkAEAmAGqAqAB5QiqAQMyLTS4AQHIAQD4AQGYAgWgApcJwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAg4QABjkAhjWBBiwA9gBAcICFxAuGNwGGLgGGNoGGNgCGMgDGLAD2AEBwgIXEC4Y2AIYuAYY2gYY3AYYyAMYsAPYAQHCAgoQABiABBiKBRhDwgINEAAYgAQYigUYQxixA8ICChAuGEMYgAQYigXCAgoQABiABBgUGIcCmAMAiAYBkAYTugYGCAEQARgJkgcHMS4wLjMuMaAHqxmyBwUyLTMuMbgHignCBwUyLTIuM8gHJ4AIAQ&sclient=gws-wiz-serp" target="_blank">📹 Video</a>
+            <a href="https://example.com" target="_blank">🔗 URL</a>
+            <a href="audio.mp3" target="_blank">🎵 Audio</a>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
